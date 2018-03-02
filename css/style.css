@@ -1,0 +1,239 @@
+*{margin:0;padding:0;}
+.header{
+    height:100px;
+    background-color:#192220;
+}
+.header .headerwrap{
+    width:90%;
+    margin:0 auto;
+}
+.header .headerwrap .menubar{
+    height:50px;
+    width:55%;
+    float:right;
+    border-radius: 20px;
+    background-color: #232B29;
+    margin-top:25px;
+}
+.menubar ul{list-style: none;}
+.menubar ul li{float:left;}
+.menubar ul li a{
+    text-decoration: none;
+    display:block;
+    padding:15px 40px;
+    margin-left: 6px;
+    transition:0.7s;
+    color:white;
+    font-family: 'Roboto',serif;
+}
+.menubar ul li a:hover{
+    color:#BDE167;
+}
+.logo{
+    height:90px;
+    width:30%;
+    float:left;
+    margin:5px 0;
+}
+.logo h2{
+    color:white;
+    font-size: 50px;
+    font-family: 'Roboto', serif;
+}
+.logo h5{
+    color:#747474;
+    font-size: 15px;
+    margin-left: 34px;
+    font-family: 'Roboto', serif;
+}
+.slider{
+    height:340px;
+    overflow:hidden;
+    background-color:#444444
+}
+.slider .sliderwrap{
+    width:90%;
+    margin:0 auto;
+}
+.slider .sliderwrap .sliderimage{
+    width:40%;
+    min-height:280px;
+    margin:18px 0; 
+    border:10px solid white;
+    float:left;
+}
+.slider .sliderwrap .sliderimage img{
+    width:100%;
+    height:280px;
+    
+}
+.slider .sliderwrap .slidercontent{
+    width:50%;
+    min-height:280px;
+    
+    float:right;
+    margin:30px 0;
+}
+.slider .sliderwrap .slidercontent h3{
+    margin-top:20px;
+    color:white;
+    font-size: 30px;
+    font-family: 'Roboto', serif;
+}
+.slider .sliderwrap .slidercontent h5{
+    color:#747474;
+    font-size: 18px;
+    margin-top: 45px;
+    font-family: 'Roboto', serif;
+    line-height: 25px;
+}
+.slidercontent button{
+    width:15%;
+    height:30px;
+    background-color:#BDE167;
+    border-radius:7px;
+    margin-top:25px;
+}
+.slidercontent button p{
+    font-family: 'Roboto',serif;
+}
+.content{
+    min-height:565px;
+    
+}
+.content .contentwrap{
+    width:92%;
+    margin:0 auto;
+}
+.leftside{
+    width:65%;
+    float:left;
+}
+.content .contentwrap .heading{
+    height:55px;
+    margin-top:40px;
+    width:100%;
+    border-bottom:1.5px solid #BDE167; 
+    
+}
+.content .contentwrap .heading h4{
+    font-size:26px;
+    padding:10px 0;
+    font-family: 'Roboto', serif;
+}
+
+.content .contentwrap .text{
+    width:100%;
+    margin-top:25px;
+    
+}
+.content .contentwrap .text h5{
+    font-size:17px;
+    font-family:'Roboto', serif;
+}
+.content .contentwrap .text p{
+    margin-top:25px;
+    font-size:15px;
+    color: #747474;
+    line-height: 20px;
+}
+.content .contentwrap .text .listholder{
+    border-left: 6px solid #BDE167;
+}
+.content .contentwrap .text ul{
+    margin:40px ;
+    
+}
+.content .contentwrap .text ul li{
+    margin:16px 0;
+    color:#747474;
+}
+hr.design{
+    width:11.2%;
+    border:2px solid #BDE167;
+}
+.sidebar{
+    width:30%;
+    min-height:520px;
+    float:right;
+    margin-top: 47px;
+}
+.sidebar .sidebartitle{
+   height:50px;
+    background-color:#404040;
+}
+.sidebar .sidebartitle h4{
+    color:white;
+    font-size: 20px;
+    padding:12px 14px;
+}
+.sidebar .side1{
+    height:155px;
+    background-color:#D9D9D9;
+}
+.sidebar .sidewrap{
+    width:85%;
+    
+    margin:0 auto;
+}
+.side1 .sideimage1{
+    width:35%;
+    padding-top: 25px;
+    float:left;
+}
+.side1 .sideimage1 img{
+    width:100%;
+    height:85px;
+    border:4px solid white;
+}
+.sidetext{
+    width:55%;
+    min-height:100px;
+    float:right;
+    padding-top:25px;
+}
+.sidetext h4{
+    font-weight:normal;
+    color:#BEBEBE;
+    font-size: 15px;
+}
+.sidetext h5{
+    margin:5px 0;
+    font-size:15px;
+}
+.sidetext p{
+    font-size: 13px;
+    color:#747474;
+}
+.side2 .sideimage2{
+    width:35%;
+    padding-top: 25px;
+    float:left;
+}
+.side2 .sideimage2 img{
+    width:100%;
+    height:85px;
+    border:4px solid white;
+}
+.sidebar .side2{
+    height:155px;
+    background-color:#D5D5D5;
+}
+.side3 .sideimage3{
+    width:35%;
+    padding-top: 25px;
+    float:left;
+}
+.side3 .sideimage3 img{
+    width:100%;
+    height:85px;
+    border:4px solid white;
+}
+.sidebar .side3{
+    height:155px;
+    background-color:#D9D9D9;
+}
+.footer{
+    height:65px;
+    border-bottom: 5px solid #BDE167
+}
